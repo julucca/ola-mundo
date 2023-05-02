@@ -1,9 +1,10 @@
 .banner {
-    padding: 3rem 7.5rem 6.25rem;
+    padding: 3rem 11rem 6.25rem;
     background-color: var(--black);
     color: var(--branco);
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr .75fr;
+    column-gap: 5rem;
 }
 
 .apresentacao {
@@ -48,7 +49,7 @@
 
 @media (max-width: 1100px) {    
     .banner {
-        padding: 3.5rem 1.5rem;
+        padding: 3.5rem 2rem;
     }
 
     .titulo {

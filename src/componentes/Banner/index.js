@@ -22,7 +22,7 @@ export default function Banner() {
             <img
                 className={styles.minhaFoto}
                 src={minhaFoto}
-                alt="Foto do Juliana Lucca sorrindo." />
+                alt="Foto da Juliana Lucca sorrindo." />
         </div>
     </div>
   )
