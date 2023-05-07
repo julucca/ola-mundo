@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Olá Mundo | React: desenvolvendo em React Router com JavaScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Repositório com projeto Olá Mundo desenvolvido durante o curso React: desenvolvendo em React Router com JavaScript da [Alura](https://www.alura.com.br/) Escola Online de Tecnologia.
 
-## Available Scripts
+## 📁 Detalhes do projeto
 
-In the project directory, you can run:
+<div align="center">
+	<img width=600px src="./public/assets/git-ola-mundo.gif">
+</div><br>
 
-### `npm start`
+O Olá Mundo é um blog pessoal que conta com:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Página inicial com banner e uma lista de posts.
+* Página Sobre Mim com informações sobre a autora.
+* Página de post específico, que pode ser acessada através de uma rota dinâmica com o id do post.
+* Página 404 para caminhos que não correspondem a nenhuma das outras rotas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+O foco desta aplicação foi criar rotas em uma SPA utilizando o React Router. O projeto também conta com o componente BotaoPrincipal, que pode ser utilizado em diversas páginas e recebe props que definem seus estilos.
 
-### `npm test`
+## 📚 Temas abordados
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Diferença entre sites tradicionais e SPAs.
+* Caminhos relativos e absolutos.
+* Rotas aninhadas.
+* `BrowserRouter`: utilizado para encapsular as rotas da aplicação.
+* `Routes`: utilizado para definir as rotas da aplicação.
+* `Route`: utilizado para definir uma rota da aplicação.
+* `Link`: utilizado para criar links entre as páginas da aplicação.
+* `NavLink`: utilizado para criar links entre as páginas da aplicação com informação de link ativo ou não.
+* Rotas dinâmicas.
+* `Outlet`: utilizado para definir onde as rotas filhas serão renderizadas.
+* `useLocation`: utilizado para obter informações da rota atual.
+* `useParams`: utilizado para obter os parâmetros passados para uma rota dinâmica.
+* `useNavigate`: utilizado para fazer navegações mais complexas.
 
-### `npm run build`
+## 🖥️ Como executar o projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para abrir e rodar o projeto, execute `npm i` para instalar as dependências e `npm start` para iniciar o projeto.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Depois, acesse [http://localhost:3000/](http://localhost:3000/) no seu navegador.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 👩‍💻 Tecnologias utilizadas
 
-### `npm run eject`
+<div>
+	<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+	<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+	<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+	<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<hr>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Desenvolvido com 💙 por [Juliana Lucca](https://www.linkedin.com/in/julianalucca/).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Projeto original desenvolvido por [Alura](https://www.alura.com.br/).
